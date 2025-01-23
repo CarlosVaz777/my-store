@@ -1,0 +1,23 @@
+<div class="container">
+      <div class="m-0 p-2 mb-5">
+        <h1 class=" " >Bienvenido a Productos </h1>
+      </div>
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col-mb-2 mb-5" *ngFor="let item of data" >
+            <div class="card h-100">
+              <div class="img-product">
+                <img [src]="item.image" class="img-p" alt="Cargando...">
+              </div>
+              <div class="card-body" >
+                <p class="card-title text-truncate">{{item.description}}</p>
+                <p class="price-product">${{item.price}} U.S </p>
+              </div>
+              <div class="button-p">
+                <button class="button-add">Agregar</button>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+<router-outlet />

@@ -1,0 +1,52 @@
+.img-product{
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.img-p{
+    width: 100px;   
+    height: 100px; 
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+    top: 4px;
+    object-fit: contain;
+    object-position: 50% 50%;
+}
+
+.img-p:hover{  
+    box-sizing: content-box;
+
+    
+}
+
+.price-product{
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+
+.button-p{
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 10px;
+}
+
+.button-add{
+    color: white;
+    background-color: rgb(0, 140, 255);
+    border: 0;
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+.button-add:hover{
+    background-color: gray;
+    color: black;
+}
